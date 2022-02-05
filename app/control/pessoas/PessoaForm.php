@@ -308,7 +308,7 @@ class PessoaForm extends TWindow
         try
         {
             $cep = preg_replace('/[^0-9]/','', $param['cep']);
-            $url = 'https://viacep.com.br/ws/'.$cep.'/json/unicode/';
+            $url = 'https://viacep.com.br'.$cep.'/json/unicode/';
 
             $content = @file_get_contents($url);
             if ( $content !== false)

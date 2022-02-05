@@ -69,6 +69,10 @@
         <action>ContasDashboard</action>
         <icon>fas:money-bill-alt fa-fw #009689</icon>
       </menuitem>
+      <menuitem label="Boleto">
+        <action>BoletoForm</action>
+        <icon>fas:money-bill-wave-alt fa-fw #009670</icon>
+      </menuitem>
     </menu>
   </menuitem>
   <menuitem label="_t{Administration}">
