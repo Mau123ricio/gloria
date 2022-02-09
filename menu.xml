@@ -69,14 +69,23 @@
         <action>ContasDashboard</action>
         <icon>fas:money-bill-alt fa-fw #009689</icon>
       </menuitem>
-      <menuitem label="Boleto">
-        <action>BoletoForm</action>
-        <icon>fas:money-bill-wave-alt fa-fw #009670</icon>
+    </menu>
+  </menuitem>
+  <menuitem label="Relatório">
+    <icon>fas:money-check fa-fw #FFA500</icon>
+    <menu>
+      <menuitem label="Relatório Conta Pagar">
+        <action>RelatorioContaPagar</action>
+        <icon>fas:list-alt fa-fw #2196F8</icon>
+      </menuitem>
+      <menuitem label="Relatório Conta Receber">
+        <action>RelatorioContaReceber</action>
+        <icon>fas:list-alt fa-fw #FF5722</icon>
       </menuitem>
     </menu>
   </menuitem>
-  <menuitem label="_t{Administration}">
-    <icon>fas:home fa-fw</icon>
+  <menuitem label="Administração">
+    <icon>fas:money-check fa-fw #2196F3</icon>
     <menu>
       <menuitem label="Dashboard">
         <action>SystemAdministrationDashboard</action>
